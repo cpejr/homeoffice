@@ -4,6 +4,8 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Router } from '@reach/router';
 import { Home, Random, Search } from './pages';
 import Login from "./components/Login";
+import List from "./components/List";
+import HeaderList from "./components/HeaderList";
 
 const RouterWrapper = styled.div`
   min-height: calc(100vh - 90px);
@@ -20,6 +22,8 @@ function App() {
           <Router>
             <Home path="/" />
             <Login path="/login" />
+            <List path="/list" />
+            <HeaderList path="/headerList" />
             <Random path="/random" />
             <Search path="/search" />
             <Search path="/search/:searchTerm" />

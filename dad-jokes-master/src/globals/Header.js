@@ -36,6 +36,8 @@ export function Header(props) {
       <FlexNav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/login">Login</NavLink>
+        <NavLink to="/list">Lista</NavLink>
+        <NavLink to="/headerList">Lista com Cabeçalho</NavLink>
         <NavLink to="/random">Random</NavLink>
         <NavLink to="/search">Search</NavLink>
       </FlexNav>

@@ -11,6 +11,7 @@ export default function Login(props) {
   }
 
   function handleSubmit(event) {
+    alert("Logged in");
     event.preventDefault();
   }
 
