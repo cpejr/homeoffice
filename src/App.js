@@ -6,6 +6,8 @@ import { Home, Random, Search } from './pages';
 import Login from "./components/Login";
 import List from "./components/List";
 import HeaderList from "./components/HeaderList";
+import MusicCard from "./components/CardMusic";
+
 
 const RouterWrapper = styled.div`
   min-height: calc(100vh - 90px);
@@ -26,6 +28,7 @@ function App() {
             <HeaderList path="/headerList" />
             <Random path="/random" />
             <Search path="/search" />
+            <MusicCard path="/cardMusic" />
             <Search path="/search/:searchTerm" />
           </Router>
         </RouterWrapper>

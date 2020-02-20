@@ -1,6 +1,7 @@
 export * from './Button';
 export * from './Card';
 export * from './CardFrame';
+export * from './CardMusic';
 export * from './Frame';
 export * from './List';
 export * from './HeaderList';
