@@ -35,6 +35,7 @@ export function Header(props) {
       <SmallImage src={Icon} />
       <FlexNav>
         <NavLink to="/">Home</NavLink>
+        <NavLink to="/login">Login</NavLink>
         <NavLink to="/random">Random</NavLink>
         <NavLink to="/search">Search</NavLink>
       </FlexNav>

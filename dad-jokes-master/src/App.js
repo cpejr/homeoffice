@@ -3,6 +3,7 @@ import { Header, Footer, theme, GlobalStyles } from './globals';
 import styled, { ThemeProvider } from 'styled-components';
 import { Router } from '@reach/router';
 import { Home, Random, Search } from './pages';
+import Login from "./components/Login";
 
 const RouterWrapper = styled.div`
   min-height: calc(100vh - 90px);
@@ -18,12 +19,13 @@ function App() {
         <RouterWrapper>
           <Router>
             <Home path="/" />
+            <Login path="/login" />
             <Random path="/random" />
             <Search path="/search" />
             <Search path="/search/:searchTerm" />
           </Router>
         </RouterWrapper>
-        <Footer author="Lusca" />
+        <Footer author="CPE Jr" />
         <GlobalStyles />
       </ThemeProvider>
     </div>
